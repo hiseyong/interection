@@ -1,0 +1,50 @@
+.mh:after {
+    content: "";
+    display: block;
+    clear: both;
+    width: 100%;
+}
+
+.mn{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.ml {
+    display: inline;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.mu {
+    list-style:none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+}
+ 
+.ml {
+    float: left;
+}
+a {
+    text-decoration-line: none;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.ml a h1{
+    text-shadow: 2px 2px 2px rgb(180, 180, 180);
+    font-family: 'Uchen', serif;
+}
+
+.btn {
+    color: black;
+}
+.btn.active {
+    color: rgb(62, 68, 151);
+}

@@ -1,0 +1,57 @@
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+h1:hover {
+    font-weight: 900;
+}
+
+header nav{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+}
+
+ul {
+    list-style:none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+}
+ 
+li {
+    float: left;
+}
+a {
+    text-decoration-line: none;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+a h1{
+    text-shadow: 2px 2px 2px rgb(180, 180, 180);
+    font-family: 'Uchen', serif;
+    font-weight: 500;
+}
+
+.btn {
+    color: black;
+}
+.btn.active {
+    color: rgb(62, 68, 151);
+}
